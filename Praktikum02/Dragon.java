@@ -1,5 +1,4 @@
 package Praktikum02;
-
 public class Dragon {
     int x;
     int y;
