@@ -10,7 +10,7 @@ public class MotorDemo {
         Motor motor2 = new Motor();
         motor2.setPlatNomor ("N 9840 AB");
         motor2.setStatusMesin (true);
-        motor2.setKecepatan (120);
+        motor2.setKecepatan (-30);
         motor2.displayInfo();
 
         Motor motor3 = new Motor();

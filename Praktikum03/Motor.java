@@ -26,10 +26,12 @@ public class Motor {
         } else if (kecepatan > 100) {
             System.out.println("Kecepatan maksimal adalah 100!");
             this.kecepatan = 100;
+        } else if (kecepatan<0) {
+            System.out.println("Kecepatan tidak boleh bernilai negatif!");
+            this.kecepatan = 0; 
         } else {
             this.kecepatan = kecepatan;
         }
-        
     }
     public void displayInfo() {
         System.out.println("Plat Nomor: " + this.platNomor);
