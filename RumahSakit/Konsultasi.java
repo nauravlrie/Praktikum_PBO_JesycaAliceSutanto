@@ -1,5 +1,4 @@
 package RumahSakit;
-
 import java.time.LocalDate;
 public class Konsultasi {
     private LocalDate tanggal;
@@ -26,9 +25,11 @@ public class Konsultasi {
     }
     public String getInfo() {
         String info = "";
-        info += "Tanggal: " + tanggal + "\n";
-        info += "Dokter: " + dokter.getInfo() + "\n";
-        info += "Perawat: " + perawat.getInfo() + "\n";
+        info += "\tTanggal: " + tanggal;
+        info += ", Dokter: " + dokter.getInfo();
+        info += ", Perawat: " + perawat.getInfo();
+        info += "\n";
+
         return info;
     }
 }
