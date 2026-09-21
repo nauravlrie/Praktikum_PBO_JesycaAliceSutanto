@@ -22,6 +22,8 @@ public class TestKoperasi {
         System.out.println("\nMembayar angsuran 3.000.000");
         anggota1.angsur(1000000); //coba cicil 400 ribu
         System.out.println("Jumlah pinjaman saat ini: " + anggota1.getJumlahPinjaman());
+
+        anggota1.jumlahPinjaman = 0;
     }
     
 }
