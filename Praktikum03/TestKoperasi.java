@@ -9,7 +9,6 @@ public class TestKoperasi {
 
         System.out.println("\nMeminjam uang 10.000.000...");
         anggota1.pinjam(10000000);
-        System.out.println("Jumlah pinjaman saat ini: " + anggota1.getJumlahPinjaman());
 
         System.out.println("\nMeminjam uang 4.000.000...");
         anggota1.pinjam(4000000);
@@ -19,11 +18,14 @@ public class TestKoperasi {
         anggota1.angsur(200000); //coba cicil 200.000
         System.out.println("Jumlah pinjaman saat ini: " + anggota1.getJumlahPinjaman());
 
-        System.out.println("\nMembayar angsuran 3.000.000");
-        anggota1.angsur(1000000); //coba cicil 400 ribu
+        System.out.println("\nMembayar angsuran 1.000.000");
+        anggota1.angsur(1000000);
         System.out.println("Jumlah pinjaman saat ini: " + anggota1.getJumlahPinjaman());
 
-        anggota1.jumlahPinjaman = 0;
+
+        System.out.println("\nMembayar angsuran 3.000.000");
+        anggota1.angsur(3000000); //coba cicil 3 juta
+        System.out.println("Jumlah pinjaman saat ini: " + anggota1.getJumlahPinjaman());
     }
     
 }
