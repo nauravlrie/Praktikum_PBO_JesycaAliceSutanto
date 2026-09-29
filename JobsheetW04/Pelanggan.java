@@ -38,6 +38,11 @@ public class Pelanggan {
         this.alamat=alamat;
     }
     public String getInfo() {
-        return nama  + idPelanggan + " - Telp: " + noTelepon + ", Alamat: " + alamat;
+    String info = "";
+    info += "ID Pelanggan : " + idPelanggan + "\n";
+    info += "Nama         : " + nama + "\n";
+    info += "No Telepon   : " + noTelepon + "\n";
+    info += "Alamat       : " + alamat + "\n";
+    return info;
     }
 }   

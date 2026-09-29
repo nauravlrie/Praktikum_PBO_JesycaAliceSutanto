@@ -29,7 +29,6 @@ public class Pesanan {
         return total;
     }
     public void cetakStruk() {
-        System.out.println("========================================");
         System.out.println("             BLOOM FLORIST              ");
         System.out.println("========================================");
         System.out.println("ID Pesanan : " + idPesanan);

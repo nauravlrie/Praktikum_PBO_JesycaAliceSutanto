@@ -29,7 +29,14 @@ public class DetailPesanan {
         return jumlah * bunga.getHarga();
     }
 
-     public String getInfo() {
-        return "  - " + bunga.getNamaBunga() + " (" + jumlah + " tangkai) x Rp " + (int) bunga.getHarga() + " = Rp " + (int) hitungSubtotal();
+    public String getInfo() {
+    String nama     = bunga.getNamaBunga();
+    int harga       = (int) bunga.getHarga();
+    int subtotal    = (int) hitungSubtotal();
+    String hasil = "  - " + nama;
+    hasil += " (" + jumlah + " tangkai)";
+    hasil += " x Rp " + harga;
+    hasil += " = Rp " + subtotal;
+    return hasil;
     }
 }

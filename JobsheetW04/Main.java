@@ -13,5 +13,6 @@ public class Main {
         pesanan1.tambahDetail(b3,2);
 
         pesanan1.cetakStruk();
+
     }
 }

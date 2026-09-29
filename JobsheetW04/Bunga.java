@@ -30,6 +30,10 @@ public class Bunga {
         this.harga = harga;
     }
     public String getInfo() {
-        return namaBunga + "(" + kodeBunga + ") @Rp" + String.format("%,.Of", harga);
+        String info = "";
+        info += "Kode Bunga : " + kodeBunga + "\n";
+        info += "Nama Bunga : " + namaBunga + "\n";
+        info += "Harga      : Rp " + (int) harga + "\n";
+        return info;
     }
 }
