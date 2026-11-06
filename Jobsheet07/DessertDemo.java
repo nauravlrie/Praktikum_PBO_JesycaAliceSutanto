@@ -12,5 +12,8 @@ public class DessertDemo {
 
         Brownies brownies1 = new Brownies("150g", "50ml", "100g", "2 butir", "200g", "50g", "50ml", "1sdt");
         System.out.println(brownies1.getInfo());
+
+        Brownies brownies2 = new Brownies();
+        System.out.println(brownies2.getInfo());
     }
 }

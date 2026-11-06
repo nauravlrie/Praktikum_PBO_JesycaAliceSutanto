@@ -15,9 +15,11 @@ public class Brownies extends Dessert {
         this.chocochips = chocochips;
         this.krim = krim;
         this.pengembang = pengembang;
+        
     }
     public String getInfo() {
-        String info = ""; 
+        // String info = super.getInfo();
+        String info = "";
         info += "Cokelat: " + this.cokelat + "\n";
         info += "Chocochips: " + this.chocochips + "\n";
         info += "Krim: " + this.krim + "\n";
