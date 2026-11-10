@@ -20,5 +20,7 @@ public class NewDemo {
         Printer printer1 = new Printer();
         printer1.cetak(webpage1);
         printer1.cetak(doc1);
+
+        
     }
 }
